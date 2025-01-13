@@ -80,9 +80,9 @@ export class ResourceManager {
       logWarn('resourceManager.RefreshResource', {
         warn: 'RefreshResource is not available in lazy loading mode',
       });
-      throw new Error(
-        'react-admin-firebase: RefreshResource is not available in lazy loading mode'
-      );
+      // throw new Error(
+      //   'react-admin-firebase: RefreshResource is not available in lazy loading mode'
+      // );
     }
 
     log('resourceManager.RefreshResource', { relativePath, collectionQuery });
